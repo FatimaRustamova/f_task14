@@ -260,7 +260,7 @@
   flex-direction: column;
   -webkit-clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
           clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .section3 .menu1 {
   width: 45%;
