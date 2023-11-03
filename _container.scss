@@ -6,88 +6,88 @@
 
 .gourmet {
     width: 100%;
+    padding-bottom: 100px;
     background-image: url("https://runwayonline.cz/wp-content/uploads/2023/06/kayleigh-harrington-yhn4okt6ci0-unsplash-scaled-e1687384766489-1536x865.jpg");
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
-}
-
-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px 0;
-    gap: 200px;
-
-    h2 {
-        font-family: $font-family3;
-        font-size: 30px;
-        color: $color-1;
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
-
-    ul {
+    nav {
+        width: 100%;
         display: flex;
-        gap: 20px;
-
-        li {
-            list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 0;
+        gap: 200px;
+    
+        h2 {
             font-family: $font-family3;
-            font-size: 18px;
+            font-size: 30px;
             color: $color-1;
-
-            a {
-                text-decoration: none;
-                color: $color-4;
-            }
-
+    
             &:hover {
                 cursor: pointer;
-                color: $color-4;
             }
         }
-    }
-
-    i {
-        display: none;
-    }
-}
-
-header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 200px 0;
-
-    .head {
-        width: 45%;
-        text-align: center;
-        margin-top: 100px;
-
-        h1 {
-            font-family: 'Sansita', sans-serif;
-            font-size: 85px;
-            color: $color-1;
+    
+        ul {
+            display: flex;
+            gap: 20px;
+    
+            li {
+                list-style-type: none;
+                font-family: $font-family3;
+                font-size: 18px;
+                color: $color-1;
+    
+                a {
+                    text-decoration: none;
+                    color: $color-4;
+                }
+    
+                &:hover {
+                    cursor: pointer;
+                    color: $color-4;
+                }
+            }
         }
-
-        button {
-            border: 2px solid $color-1;
-            width: 150px;
-            height: 40px;
-            color: $color-1;
-            background: none;
-            font-family: $font-family4;
-            letter-spacing: 3px;
-            margin-top: 15px;
-
-            &:hover {
-                cursor: pointer;
-                background-color: $color-1;
-                color: $color-2;
+    
+        i {
+            display: none;
+        }
+    }
+    
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 200px 0;
+    
+        .head {
+            width: 45%;
+            text-align: center;
+            margin-top: 100px;
+    
+            h1 {
+                font-family: 'Sansita', sans-serif;
+                font-size: 85px;
+                color: $color-1;
+            }
+    
+            button {
+                border: 2px solid $color-1;
+                width: 150px;
+                height: 40px;
+                color: $color-1;
+                background: none;
+                font-family: $font-family4;
+                letter-spacing: 3px;
+                margin-top: 15px;
+                transition: all .5s ease;
+    
+                &:hover {
+                    cursor: pointer;
+                    background-color: $color-1;
+                    color: $color-2;
+                }
             }
         }
     }
@@ -100,8 +100,9 @@ header {
     align-items: center;
     background-color: aliceblue;
     flex-direction: column;
-    clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
-    padding: 50px 0;
+    clip-path: polygon(0 22%, 100% 0, 100% 78%, 0% 100%);
+    margin-top: -200px;
+    padding-top: 150px;
 
     .restaurant {
         width: 75%;
@@ -252,6 +253,7 @@ header {
         display: flex;
         position: relative;
         flex-direction: column;
+        overflow: hidden;
 
         .food1 {
             width: 85%;
@@ -272,20 +274,31 @@ header {
                 font-size: 30px;
                 font-weight: 900;
                 margin-top: 50px;
+                
             }
         }
 
         img {
             width: 100%;
+            transition: all .5s ease;
 
             &:hover {
                 cursor: pointer;
+                scale: 1.1;
             }
         }
     }
 }
 
-.section1 {
+.section3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    flex-direction: column;
+    clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
+    padding: 150px 0;
     .menu1 {
         width: 45%;
         margin-top: 50px;
@@ -352,7 +365,12 @@ header {
 
 }
 
-.section2 {
+.section4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     .testimonial {
         width: 45%;
         margin-top: 70px;
@@ -426,7 +444,15 @@ header {
     }
 }
 
-.section1 {
+.section5 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    flex-direction: column;
+    clip-path: polygon(0 18%, 100% 0, 100% 82%, 0% 100%);
+    padding: 100px 0;
     .blog {
         width: 45%;
         margin-top: 70px;
@@ -512,7 +538,12 @@ header {
     }
 }
 
-.section2 {
+.section6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     .info {
         width: 75%;
         padding: 50px 0 100px 0;
@@ -538,6 +569,7 @@ header {
                 a {
                     text-decoration: none;
                     color: $color-4;
+                    transition: all .5s ease;
 
                     &:hover {
                         cursor: pointer;
@@ -566,6 +598,7 @@ header {
                 a {
                     text-decoration: none;
                     color: $color-4;
+                    transition: all .5s ease;
 
                     &:hover {
                         cursor: pointer;
@@ -615,6 +648,7 @@ footer {
         a {
             text-decoration: none;
             color: $color-4;
+            transition: all .5s ease;
 
             &:hover {
                 cursor: pointer;
@@ -626,19 +660,21 @@ footer {
 
 
 @media screen and (max-width:576px) {
-    nav {
-        width: 100%;
-        background-color: $color-2;
-
-        ul {
-            display: none;
-        }
-
-        i {
-            display: flex;
-            font-size: 30px;
-            border: 1px solid $color-3;
-            color: $color-3;
+    .gourmet{
+        nav {
+            width: 100%;
+            background-color: $color-2;
+    
+            ul {
+                display: none;
+            }
+    
+            i {
+                display: flex;
+                font-size: 30px;
+                border: 1px solid $color-3;
+                color: $color-3;
+            }
         }
     }
 
@@ -683,6 +719,7 @@ footer {
     }
 
     .food {
+        width: 100%;
         flex-direction: row;
 
         div {
@@ -690,13 +727,15 @@ footer {
         }
     }
 
-    .section1 {
+    .section3 {
+        clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%);
         .menu1 {
             width: 100%;
         }
 
         .value {
             flex-direction: column;
+            gap: 10px;
 
             .div {
                 width: 100%;
@@ -704,7 +743,7 @@ footer {
         }
     }
 
-    .section2 {
+    .section4 {
         .testimonial {
             width: 100%;
         }
@@ -714,7 +753,7 @@ footer {
         }
     }
 
-    .section1 {
+    .section5 {
         .blog {
             width: 100%;
         }
@@ -728,7 +767,7 @@ footer {
         }
     }
 
-    .section2 {
+    .section6 {
         .info {
             display: grid;
 
